@@ -37,6 +37,7 @@
   background: white;
   margin: 3rem;
   border-radius: 35px;
+  box-shadow: 1px 1px 30px silver;
   z-index: 20;
 }
 
