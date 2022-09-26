@@ -68,27 +68,29 @@ function App() {
               deselectUser={deselectUser}
             />
           </div>
-          <div className="usersList">
-            <UsersList
-              users={users}
-              deleteUser={deleteUser}
-              selectUser={selectUser}
-            />
+          <div className="usersListBackground">
+            <div className="usersList">
+              <UsersList
+                users={users}
+                deleteUser={deleteUser}
+                selectUser={selectUser}
+              />
+            </div>
           </div>
         </div>
       </div>
       <ul className="glass">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </>
   );
 }
