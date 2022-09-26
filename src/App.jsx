@@ -79,8 +79,9 @@ function App() {
           </div>
         </div>
       </div>
+      {/* Animated Background elements */}
       <ul className="glass">
-        <li></li>
+        <li></li> {/* Every li element represents an animated cube */}
         <li></li>
         <li></li>
         <li></li>
@@ -91,6 +92,7 @@ function App() {
         <li></li>
         <li></li>
       </ul>
+      {/* Animated Background elements */}
     </>
   );
 }
