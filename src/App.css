@@ -58,7 +58,6 @@ h3{
   box-shadow: 1px 1px 30px silver;
   z-index: 20;
   height: calc(100vh - 6rem);
-
 }
 
 .usersCards{
@@ -70,22 +69,13 @@ h3{
 }
 
 .usersCards:hover{
-  background-color: #2af59a83;
+  background-color: rgba(135, 207, 235, 0.473);
   box-shadow: 1px 1px 30px silver;
   cursor: pointer;
 }
 
 .UserButtons{
   margin-right: .5rem;
-}
-
-li {
-  list-style: none;
-}
-
-form {
-  text-align: left;
-  margin: 0 auto;
   width: 250px;
   margin-top: 1.5rem;
   z-index: 10;
