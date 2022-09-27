@@ -61,11 +61,13 @@ h3{
 }
 
 .usersCards{
+  display: block;
   background-color: rgba(255, 255, 255, 0.466);
   box-shadow: 1px 1px 20px silver;
   padding: 1rem;
   border-radius: 20px;
   cursor: pointer;
+
 }
 
 .usersCards:hover{
@@ -76,7 +78,7 @@ h3{
 
 .UserButtons{
   margin-right: .5rem;
-  width: 250px;
+  width: 220px;
   margin-top: 1.5rem;
   z-index: 10;
 }
@@ -85,6 +87,10 @@ input {
   border-radius: 15px;
   border: solid .5px white;
   background-color: skyblue;
+}
+
+li{
+  list-style: none;
 }
 
 label{
@@ -101,7 +107,7 @@ label{
 }
 
 .input-container input {
-  width: 100%;
+  width: 80%;
   padding: 7px;
   font-size: 16px;
 }
