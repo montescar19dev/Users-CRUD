@@ -20,20 +20,20 @@ function App() {
 
   const getUsers = () => {
     axios
-      .get("https://users-crud1.herokuapp.com/users/")
+      .get("https://users-crud.academlo.tech/users/")
       .then((res) => setUsers(res.data));
   };
 
   const addUser = (newUser) => {
     axios
-      .post("https://users-crud1.herokuapp.com/users/", newUser)
+      .post("https://users-crud.academlo.tech/", newUser)
       .then(() => getUsers())
       .catch((error) => console.log(error.response));
   };
 
   const deleteUser = (id) => {
     axios
-      .delete(`https://users-crud1.herokuapp.com/users/${id}/`)
+      .delete(`https://users-crud.academlo.tech/users/${id}/`)
       .then(() => getUsers());
   };
 
@@ -46,7 +46,7 @@ function App() {
   const updateUser = (newUser) => {
     axios
       .put(
-        `https://users-crud1.herokuapp.com/users/${userSelected.id}/`,
+        `https://users-crud.academlo.tech/users/${userSelected.id}/`,
         newUser
       )
       .then(() => getUsers())
