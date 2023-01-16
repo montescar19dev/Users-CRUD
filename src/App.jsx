@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("https://users-crud1.herokuapp.com/users/")
+      .get("https://users-crud.academlo.tech/users/")
       .then((res) => setUsers(res.data));
   }, []);
 
