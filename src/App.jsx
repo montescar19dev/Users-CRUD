@@ -26,7 +26,7 @@ function App() {
 
   const addUser = (newUser) => {
     axios
-      .post("https://users-crud.academlo.tech/", newUser)
+      .post("https://users-crud.academlo.tech/users/", newUser)
       .then(() => getUsers())
       .catch((error) => console.log(error.response));
   };
